@@ -8,7 +8,7 @@ description = "Converts EML files to HTML"
 readme = "README.md"
 homepage = "https://github.com/jpopesculian/eml-to-html"
 repository = "https://github.com/jpopesculian/eml-to-html"
-keywords = ["cli", "email", "eml", "html", "parser", "utility"]
+keywords = ["cli", "eml", "html", "parser", "utility"]
 categories = ["command-line-utilities"]
 
 [dependencies]
