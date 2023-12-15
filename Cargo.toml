@@ -1,0 +1,19 @@
+[package]
+name = "eml2html"
+version = "0.1.0"
+edition = "2021"
+authors = ["Julian Popescu <hi@julian.dev>"]
+license = "MIT OR Apache-2.0"
+description = "Converts EML files to HTML"
+readme = "README.md"
+homepage = "https://github.com/jpopesculian/eml-to-html"
+repository = "https://github.com/jpopesculian/eml-to-html"
+keywords = ["cli", "email", "eml", "html", "parser", "utility"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+eml-parser = "0.1"
+eyre = "0.6.11"
+quoted_printable = "0.5.0"
+
